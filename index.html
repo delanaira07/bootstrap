@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Delanaira</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">Delanaira</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Beranda<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="email.html">Email</a>
+                            <a class="dropdown-item" href="kontak.html">Kontak</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Delanaira Nazwa Muliana</h1>
+          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+          <!-- Modal trigger button -->
+          <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
+            Follow
+          </button>
+          
+          <!-- Modal Body -->
+          <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+          <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Isi data berikut</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-floating mb-3">
+                          <input
+                            type="text"
+                            class="form-control" name="formId1" id="formId1" placeholder="">
+                          <label for="formId1">Nama Lengkap</label>
+                        </div>
+                        <div class="mb-3">
+                          <label for="" class="form-label">Email</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="text@gmail.com">
+                          <small id="emailHelpId" class="form-text text-muted">Email Aktif</small>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+          
+          <!-- Optional: Place to the bottom of scripts -->
+          <script>
+            const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+          
+          </script>
+          <div>
+          </div>
+          
+          <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+                <div
+                    class="h-100 p-5 text-dark bg-secondary border rounded-3">
+                    <h2>X RPL 2</h2>
+                    <p>Karena tidak diterima di SMA Negeri jadi saya memutuskan untuk daftar di SMK Negeri dengan jurusan RPL atau PPLG.</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id2" aria-controls="Id2">
+                      Web Ini Dibuat Menggunakan Bootstrap 5
+                      </button>
+                      
+                      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="Id2" aria-labelledby="staticBackdropLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">Bootstrap 5</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <div>
+                        Bootstrap adalah framework HTML, CSS, dan JavaScript yang berfungsi untuk mendesain website responsive degan cepat dan mudah.
+                        </div>
+                      </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="h-100 p-5 text-dark bg-secondary border rounded-3">
+                    <h2>Mata Pelajaran Favorit</h2>
+                    <p>Mata pelajaran favorit saya adalah PJOK Pendidikan Jasmani Olahraga dan Kesehatan karena membuat murid yang malas olahraga jadi kembali melakukan aktivitas olahraga.</p>
+                    <button class="btn Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
+                    mix and match with additional component themes and more." type="button">
+                </div>
+            </div>
+          </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <div class="alert alert-primary" role="alert">
+        <strong>SMK N 10 Semarang</strong> dibuat oleh Delanaira Nazwa
+    </div>
+    
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
